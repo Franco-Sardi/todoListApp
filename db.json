@@ -9,18 +9,18 @@
         "fechaCierre": "2025-04-24"
       },
       {
-        "id": "2025-04-24T15:13:08.407Z",
+        "id": "2025-05-14T19:24:37.160Z",
         "estado": "pendiente",
-        "nombre": "kkkkkkkkkk",
-        "descripcion": "kkkkkkkkkk",
-        "fechaCierre": "2025-05-04"
+        "nombre": "Subir Portfolio",
+        "descripcion": "Terminar de subir proyectos a mi portfolio",
+        "fechaCierre": "2025-05-14"
       },
       {
-        "id": "2025-05-13T23:38:50.316Z",
-        "nombre": "Tarea5",
-        "descripcion": "Esta es una tarea",
-        "fechaCierre": "2025-04-25",
-        "estado": "en progreso"
+        "id": "2025-05-14T19:30:09.938Z",
+        "estado": "pendiente",
+        "nombre": "Tarea desde el BackLog",
+        "descripcion": "prueba de tarea",
+        "fechaCierre": "2025-05-15"
       }
     ]
   },
@@ -66,24 +66,24 @@
         ]
       },
       {
-        "id": "ma45raekciozxcvlz0v",
-        "nombre": "Cierre mama Juli",
-        "fechaInicio": "2025-04-30",
-        "fechaCierre": "2025-05-10",
+        "id": "maobuby9tvkhxyp8g9",
+        "nombre": "Sprint 3 Prueba editado",
+        "fechaInicio": "2025-05-14",
+        "fechaCierre": "2025-05-30",
         "tareas": [
           {
-            "id": "2025-04-30T16:35:26.528Z",
-            "estado": "completada",
-            "nombre": "Cotizarle A la mama del juli rica",
-            "descripcion": "Que rica la mama",
-            "fechaCierre": "2025-04-30"
+            "id": "2025-05-13T23:38:50.316Z",
+            "nombre": "Tarea 1 ",
+            "descripcion": "Esta es una tarea ",
+            "fechaCierre": "2025-04-25",
+            "estado": "completada"
           },
           {
-            "id": "2025-04-30T16:37:16.236Z",
-            "estado": "completada",
-            "nombre": "PEPE",
-            "descripcion": "el pepe ete sech",
-            "fechaCierre": "2025-04-30"
+            "id": "2025-05-14T19:23:42.676Z",
+            "estado": "pendiente",
+            "nombre": "Tarea desde Sprint 3",
+            "descripcion": "Creacion de tarea nueva",
+            "fechaCierre": "2025-05-14"
           }
         ]
       }

@@ -84,7 +84,15 @@ return (
             </div>
           )}
         </div>
-        {openModalSprint && <ModalSprint handleCloseModal={handleCloseModal} />}
+        {openModalSprint && (
+          <ModalSprint
+            handleCloseModal={handleCloseModal}
+            handleAddTask={async (newTask) => {
+              // Implement the logic to handle adding a task
+              console.log("Task added:", newTask);
+            }}
+          />
+        )}
       </div>
     </div>
   </>
