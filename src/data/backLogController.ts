@@ -2,7 +2,7 @@ import axios from "axios";
 import { ITarea } from "../types/ITarea";
 import { putBackLogList } from "../http/backLogList";
 
-const API_URL = "http://localhost:3000/backlog"; // URL de la API para obtener los backlogs
+const API_URL = "https://todolistapp-back.onrender.com/backlog"; // URL de la API para obtener los backlogs
 
 // Función para obtener todos los proyectos
 export const getBackLogsController = async (): Promise<

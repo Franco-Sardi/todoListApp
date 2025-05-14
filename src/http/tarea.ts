@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ITarea } from "../types/ITarea";
 
-const API_URL = "http://localhost:3000/backlog";
+const API_URL = "https://todolistapp-back.onrender.com/backlog";
 
 export const getAllTareas = async () =>{
     try {

@@ -2,7 +2,7 @@ import axios from "axios";
 import { IBackLogList } from "../types/IBackLogList";
 import { ITarea } from "../types/ITarea";
 
-const API_URL = "http://localhost:3000/backlog";
+const API_URL = "https://todolistapp-back.onrender.com/backlog";
 // Esta función actualiza la lista completa de sprints
 export const putBackLogList = async (tareas: ITarea[]): Promise<IBackLogList | undefined> => {
   try {
