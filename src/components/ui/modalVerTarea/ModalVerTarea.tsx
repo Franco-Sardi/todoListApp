@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { ITarea } from "../../../types/ITarea";
-import styles from "./modalVerTarea.module.css";
+import styles from "./ModalVerTarea.module.css";
 
 type ModalVerTareaProps = {
   tarea: ITarea | null;
