@@ -1,0 +1,22 @@
+
+.header {
+  display: flex;
+  align-items: center; background-color: #1E2A38;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:#ffff;
+}
+.hamburger {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Puedes ocultarlo en pantallas grandes si lo deseas */
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+}

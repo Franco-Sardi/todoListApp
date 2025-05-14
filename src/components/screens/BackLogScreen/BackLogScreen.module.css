@@ -1,0 +1,37 @@
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten */
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Sidebar */
+.sideBar {
+    width: clamp(200px, 25%, 300px); /* Ancho flexible */
+    min-width: 200px;
+}
+
+/* Lista de tareas */
+.listTareas {
+    flex: 1; /* Se expande automáticamente */
+    min-width: 300px;
+}
+
+/* Ajustes en pantallas pequeñas */
+@media (max-width: 768px) {
+    .mainContainer {
+        flex-direction: column; /* Pila en dispositivos móviles */
+    }
+
+    .sideBar {
+        width: 100%;
+        max-width: 100%;
+        min-height: 60px; /* Puede convertirse en un navbar */
+    }
+
+    .listTareas {
+        width: 100%;
+        max-width: 100%;
+    }
+}
