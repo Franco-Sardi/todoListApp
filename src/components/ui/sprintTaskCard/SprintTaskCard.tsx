@@ -1,4 +1,5 @@
-import styles from "./sprintTaskCard.module.css";
+//Arreglo import
+import styles from "./SprintTaskCard.module.css";
 import { ITarea } from "../../../types/ITarea";
 import { Eye, Pencil, Trash2 } from "lucide-react";
 import { useState } from "react";
