@@ -4,7 +4,7 @@ import { tareaStore } from "../../../store/backLogStore";
 import { updateSprintController } from "../../../data/sprintController";
 import { deleteBackLogController } from "../../../data/backLogController";
 import { ITarea } from "../../../types/ITarea";
-import styles from "./sprintSelector.module.css";
+import styles from "./SprintSelector.module.css";
 import { Forward } from "lucide-react";
 import { ISprint } from "../../../types/ISprint";
 
