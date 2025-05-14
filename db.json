@@ -57,8 +57,8 @@
         "fechaCierre": "2025-05-08",
         "tareas": [
           {
-            "id": "2025-04-25T01:02:10.601Z",
-            "estado": "pendiente",
+            "id": "2025-05-14T19:50:05.356Z",
+            "estado": "en progreso",
             "nombre": "Tarea Video Final",
             "descripcion": "Subo el video a youtube",
             "fechaCierre": "2025-04-21"
