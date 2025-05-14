@@ -125,7 +125,15 @@ export const SprintTaskCard = ({ tarea }: Props) => {
         <span onClick={handleEliminarTarea}><Trash2 size={20} /></span>
       </div>
 
-      {isModalOpen && <ModalSprint handleCloseModal={closeModal} handleAddTask={async (newTask) => { /* Implement task addition logic here */ }} />}
+      {isModalOpen && (
+  <ModalSprint
+    handleCloseModal={closeModal}
+    handleAddTask={async (newTask) => {
+      console.log("Nueva tarea recibida:", newTask); // ✅ Ahora se usa `newTask`
+      // Aquí puedes implementarlo en el estado o enviarlo a la BD
+    }}
+  />
+)}
       {isVerTareaOpen && <ModalVerTarea tarea={tarea} handleClose={closeVerTarea} />}
     </div>
   );
