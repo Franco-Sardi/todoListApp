@@ -17,6 +17,7 @@ const initialState: ITarea = {
 
 interface IModal {
   handleCloseModal: () => void;
+  handleAddTask: (newTask: any) => Promise<void>;
 }
 
 export const ModalSprint = ({ handleCloseModal }: IModal) => {

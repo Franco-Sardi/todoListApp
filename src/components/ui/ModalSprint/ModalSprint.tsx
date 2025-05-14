@@ -16,6 +16,7 @@ const initialState: ISprint = {
 
 type IModalSprint = {
   handleCloseModal: VoidFunction;
+   handleAddTask: (newTask: any) => Promise<void>;
 };
 
 export const ModalSprint: FC<IModalSprint> = ({ handleCloseModal }) => {
